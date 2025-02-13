@@ -172,6 +172,18 @@ class K3CloudApiSdk
     }
 
     /**
+     * 销售订单新变更单
+     * @param $data
+     * @param string $format
+     * @return mixed|string|void
+     */
+    public function x_sale_order($data, string $format = 'string')
+    {
+        $url = $this->hostUrl . ApiPathConst::SAVE_X_SALE_ORDER;
+        return $this->webApiClient->execute($url, $this->getHeaders($url), $data, $format);
+    }
+
+    /**
      * 批量保存
      * @param $formId
      * @param $data

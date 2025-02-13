@@ -56,4 +56,7 @@ class ApiPathConst
     const GROUPDELETE_API = 'Kingdee.BOS.WebApi.ServicesStub.DynamicFormService.GroupDelete.common.kdsvc';
     // 查询报表数据
     const GET_SYS_REPORT_DATA_API = 'Kingdee.BOS.WebApi.ServicesStub.DynamicFormService.GetSysReportData.common.kdsvc';
+
+    // 销售订单新变更单
+    const SAVE_X_SALE_ORDER = 'Kingdee.K3.SCM.WebApi.ServicesStub.SaveXSaleOrderWebApi.SaveXSaleOrder.common.kdsvc';
 }
